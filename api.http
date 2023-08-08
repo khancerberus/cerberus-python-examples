@@ -1,0 +1,20 @@
+### Get users
+GET http://localhost:5000/api/users
+
+### Create a new user
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+    "name": "ri",
+    "mail": "aloalo@alo.cl"
+}
+
+### Update a new user
+POST http://localhost:5000/api/users/3
+Content-Type: application/json
+
+{
+    "age": 28,
+    "mail": "alo@sex.com"
+}

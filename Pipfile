@@ -9,8 +9,11 @@ flask-sqlalchemy = "*"
 cerberus = "*"
 psycopg2-binary = "*"
 python-dotenv = "*"
+waitress = "*"
 
 [dev-packages]
+flake8 = "*"
+ruff = "*"
 
 [requires]
 python_version = "3.11"
